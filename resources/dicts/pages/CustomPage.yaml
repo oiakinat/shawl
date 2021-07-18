@@ -1,0 +1,26 @@
+page_repr: Page description
+search:
+  input:
+    id: search_form_input_homepage
+    repr: Search input
+  button:
+    id: search_button_homepage
+web_tab:
+  a:
+    css selector: a.js-zci-link--web
+map_tab:
+  a:
+    partial link text: Maps
+collections:
+  all:
+    div:
+      xpath: //div
+      repr: All div collection
+    li:
+      xpath: //li
+  many:
+    a:
+      css selector: a
+page_strings:
+  locator_pattern: //div//%s
+  title_text: Hello there
